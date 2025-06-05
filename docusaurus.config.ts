@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Future Then',
-  tagline: 'the future then',
+  title: '未来志',
+  tagline: '未来已来！让科技走进千家万户！',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -83,28 +83,28 @@ const config: Config = {
         // },
         {
           type: 'docSidebar',
-          sidebarId: 'post',
+          sidebarId: 'tutorial',
           position: 'left',
           label: '小白教程',
         },
-        {
-          type: 'docSidebar',
-          sidebarId: 'vps',
-          position: 'left',
-          label: 'VPS',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'wordpress',
-          position: 'left',
-          label: 'WordPress',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'vpn',
-          position: 'left',
-          label: 'VPN',
-        },
+        // {
+        //   type: 'docSidebar',
+        //   sidebarId: 'vps',
+        //   position: 'left',
+        //   label: 'VPS',
+        // },
+        // {
+        //   type: 'docSidebar',
+        //   sidebarId: 'wordpress',
+        //   position: 'left',
+        //   label: 'WordPress',
+        // },
+        // {
+        //   type: 'docSidebar',
+        //   sidebarId: 'vpn',
+        //   position: 'left',
+        //   label: 'VPN',
+        // },
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/theFutureThen',
