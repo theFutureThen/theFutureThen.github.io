@@ -75,11 +75,17 @@ const config: Config = {
         src: 'img/logo.webp',
       },
       items: [
+        // {
+        //   type: 'docSidebar',
+        //   sidebarId: 'demo',
+        //   position: 'left',
+        //   label: 'Demo',
+        // },
         {
           type: 'docSidebar',
-          sidebarId: 'demo',
+          sidebarId: 'post',
           position: 'left',
-          label: 'Demo',
+          label: '小白教程',
         },
         {
           type: 'docSidebar',
