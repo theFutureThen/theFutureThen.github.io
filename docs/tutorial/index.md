@@ -15,7 +15,7 @@ title: 科学上网
 > 
 > 服务器：[Vultr](https://www.vultr.com/?ref=7039524)
 
-## 准备 VPS（国外服务器）（约 6 分钟）
+## ⌛️ 准备 VPS（国外服务器）（约 6 分钟）
 
 > 注册 2 分钟，付费 0.5 分钟，部署&等待 2.5 分钟
 > 
@@ -84,7 +84,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/theFutureThen/xray/refs/heads/
 
 ---
 
-## 使用——下载客户端&启动（约 2 分钟）
+## 🏁 使用——下载客户端&启动（约 2 分钟）
 
 推荐使用 **[v2rayN（Windows/Mac OS）](https://github.com/2dust/v2rayn/releases)** 或 **[Shadowrocket（iOS）](https://apps.apple.com/us/app/shadowrocket/id932747118)**、**[v2rayNG（安卓）](https://github.com/2dust/v2rayNG/releases)**
 
