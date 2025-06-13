@@ -91,11 +91,20 @@ sudo xattr -r -d com.apple.quarantine  /Applications/v2rayN.app
 
 ## ❓ 常见问题
 
-**Q1：我从来没用过 Linux，这看得懂吗？**
+**Q1：为什么不选择 ss/v2ray/sing-box 等？**
+
+A: xray 目前是最佳的选择，预计未来 sing-box 将会是最佳选择。
+
+- ss 目前很容易被识别
+- xray 是 v2ray 的升级版。相比 V2Ray 更现代，社区更活跃。支持最新的抗干扰手段，如 XTLS + Reality。
+- sing-box 目前不稳定，迭代频繁，且目前官方客户端开发不完善。主要还需要 v2ray 相关的客户端。
+
+
+**Q2：我从来没用过 Linux，这看得懂吗？**
 
 A：教程写得就是给您这样的朋友看的，复制粘贴命令就能跑，不需要您写代码！
 
-**Q2：脚本包括哪些功能？**
+**Q3：脚本包括哪些功能？**
 
 A：包括以下功能：
 - 安装 Xray 主程序
@@ -105,7 +114,7 @@ A：包括以下功能：
 - 启用 BBR 加速（让网络更快）
 - 最后生成一个连接二维码，手机一扫就能用！
 
-**Q3：可以不用脚本自己动手么？**
+**Q4：可以不用脚本自己动手么？**
 
 A：当然可以，如果您是专业人士，可以参考以下步骤（上述脚本的核心）：
 ```
@@ -198,16 +207,17 @@ vless://471aff3e-215a-4d7e-9cef-9acf96e5df86@45.77.96.59:1225?flow=xtls-rprx-vis
 ```
 
 
-**Q4：能不能卸载？**
+**Q5：能不能卸载？**
 
-可以。您只需运行：
+A：可以。您只需运行：
 
 ```bash
 bash /usr/local/bin/xray uninstall
 ```
 
-**Q5: vultr 怎么操作？**
+**Q6: vultr 怎么操作？**
 
+A：提供了详细的截图，辅助大家进行操作。
 
 #### 付费
 
@@ -224,9 +234,9 @@ bash /usr/local/bin/xray uninstall
 
 ![](https://raw.githubusercontent.com/theFutureThen/xray/refs/heads/main/screenshot/delpoy_0.png)![](https://raw.githubusercontent.com/theFutureThen/xray/refs/heads/main/screenshot/delpoy_1.png)![](https://raw.githubusercontent.com/theFutureThen/xray/refs/heads/main/screenshot/delpoy_2.png)![](https://raw.githubusercontent.com/theFutureThen/xray/refs/heads/main/screenshot/delpoy_3.png)![](https://raw.githubusercontent.com/theFutureThen/xray/refs/heads/main/screenshot/delpoy_4.png)
 
-**Q6: 写作的动力？**
+**Q7: 写作的动力？**
 
-推广 vultr 获取点服务商的佣金
+A：推广 vultr 获取点服务商的佣金
 
 |[链接1：您消费\$10，送我\$10](https://www.vultr.com/?ref=7039524)|[链接2（限时有效）：您消费\$100，送您\$300，送我\$100](https://www.vultr.com/?ref=9643303-9J)|
 |-|-|
