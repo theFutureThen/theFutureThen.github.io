@@ -15,27 +15,12 @@ title: 科学上网
 > 
 > 服务器：[Vultr](https://www.vultr.com/?ref=7039524)
 
-## ⌛️ 准备 VPS（国外服务器）（约 6 分钟）
+## ⌛️ 准备 VPS（国外服务器）（约 5 分钟）
 
 > 注册 2 分钟，付费 0.5 分钟，部署&等待 2.5 分钟
 > 
 
-在开始之前，您需要准备一台国外 VPS。如果没有则需要购买国外 VPS，推荐 [Vultr](https://www.vultr.com/?ref=7039524)，可以按小时计费。*[点我消费\$100送\$300（限时活动）](https://www.vultr.com/?ref=7039524)*
-
-#### 付费
-
-> 支持支付宝，目前最低充值`$10`
-
-![](https://raw.githubusercontent.com/theFutureThen/xray/refs/heads/main/screenshot/pay.png)
-
-
-#### 部署（以 debian 为例）
-
-> 服务器最低消费 `$3.5/月`，连接设备数量不限
-
-注意：选择带 ipv4 的服务器
-
-![](https://raw.githubusercontent.com/theFutureThen/xray/refs/heads/main/screenshot/delpoy_0.png)![](https://raw.githubusercontent.com/theFutureThen/xray/refs/heads/main/screenshot/delpoy_1.png)![](https://raw.githubusercontent.com/theFutureThen/xray/refs/heads/main/screenshot/delpoy_2.png)![](https://raw.githubusercontent.com/theFutureThen/xray/refs/heads/main/screenshot/delpoy_3.png)![](https://raw.githubusercontent.com/theFutureThen/xray/refs/heads/main/screenshot/delpoy_4.png)
+在开始之前，您需要准备一台国外 VPS。如果没有则需要购买国外 VPS，推荐 [Vultr](https://www.vultr.com/?ref=7039524)，可以按小时计费。
 
 ---
 
@@ -221,7 +206,25 @@ vless://471aff3e-215a-4d7e-9cef-9acf96e5df86@45.77.96.59:1225?flow=xtls-rprx-vis
 bash /usr/local/bin/xray uninstall
 ```
 
-**Q5: 写作的动力？**
+**Q5: vultr 怎么操作？**
+
+
+#### 付费
+
+> 支持支付宝，目前最低充值`$10`
+
+![](https://raw.githubusercontent.com/theFutureThen/xray/refs/heads/main/screenshot/pay.png)
+
+
+#### 部署（以 debian 为例）
+
+> 服务器最低消费 `$3.5/月`，连接设备数量不限
+
+注意：选择带 ipv4 的服务器
+
+![](https://raw.githubusercontent.com/theFutureThen/xray/refs/heads/main/screenshot/delpoy_0.png)![](https://raw.githubusercontent.com/theFutureThen/xray/refs/heads/main/screenshot/delpoy_1.png)![](https://raw.githubusercontent.com/theFutureThen/xray/refs/heads/main/screenshot/delpoy_2.png)![](https://raw.githubusercontent.com/theFutureThen/xray/refs/heads/main/screenshot/delpoy_3.png)![](https://raw.githubusercontent.com/theFutureThen/xray/refs/heads/main/screenshot/delpoy_4.png)
+
+**Q6: 写作的动力？**
 
 推广 vultr 获取点服务商的佣金
 
